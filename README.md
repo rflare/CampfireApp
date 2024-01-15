@@ -9,3 +9,5 @@ npm i
 npm run build
 node server/index.js
 ```
+
+This project uses a React + Vite client, while using an ExpressJS and MySql backend.
