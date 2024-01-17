@@ -8,7 +8,7 @@ function App() {
             .then((res) => res.json())
             .then((res) => {
                 console.log(res)
-                setData(res[0].content)
+                setData(res[0].text)
             })
     })
     return (
