@@ -1,13 +1,10 @@
-# BigTime
-## Some goofy ahh social media i'm making
+# Big
+Time
+## Summary
 
-Make sure you have node.js installed on your machine.
-
-Run all of these.
-```sh
-npm i
-npm run build
-node server/index.js
-```
+BigTime is a social media I'm making. I'm not taking it too seriously.
 
 This project uses a React + Vite client, while using an ExpressJS and MySql backend.
+
+## Setup
+Read on how to setup [here](./docs/Setup.md)
