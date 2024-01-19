@@ -1,5 +1,6 @@
 //TODO: Add modules 
 //Just another comment
+//Second useless comment
 require('dotenv').config()
 
 const mysql = require('mysql2')
