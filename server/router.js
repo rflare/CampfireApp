@@ -10,7 +10,7 @@ export function init()
 
     app.get('/api/get', (req, res) => {
 		let posts = database.getPosts()
-   		res.status(200).json(result)
+   		res.status(200).json(posts)
     })
     
     app.post('/api/post', (req, res) => {

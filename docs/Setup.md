@@ -21,7 +21,7 @@ CREATE DATABASE <database>;
 Set up user:
 ```sh
 CREATE USER '<user>'@'<host>' IDENTIFIED BY '<password>';
-GRANT ALL PRIVILEGES ON <database>.* TO <user>;
+GRANT ALL PRIVILEGES ON <database>.* TO '<user>'@'<host>';
 ```
 
 Now add to `.env' file
