@@ -1,0 +1,41 @@
+version: '3.8'
+services:
+    mysqldb:
+        image: mariadb:latest
+        env_file: 
+            - path: ./.env
+              required: true
+        environment:
+            - MYSQL_DATABASE=${DATABASE}
+            - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+
+        volumes:
+            - db-data:/var/lib/mysqld
+        ports:
+            - 3307:3306
+        expose:
+            - "3306"
+        networks:
+            - private
+        restart: unless-stopped
+
+    server:
+        depends_on:
+            - mysqldb
+        build: ./server
+        env_file: 
+            - path: ./.env
+              required: true
+        ports:
+            - 53342:53342
+        networks:
+            - public
+            - private
+        restart: unless-stopped
+
+
+volumes: 
+    db-data:
+networks:
+    public:
+    private:
