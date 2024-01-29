@@ -12,8 +12,6 @@ services:
         volumes:
             - db-data:/var/lib/mysqld
             - ./init.sql:/docker-entrypoint-initdb.d/init.sql
-        ports:
-            - 3307:3306
         networks:
             - private
         restart: unless-stopped
@@ -26,17 +24,20 @@ services:
             - path: ./.env
               required: true
         ports:
-            - 53342:53342
+            - ${SERVER_DOCKER_PORT}:${SERVER_LOCAL_PORT}
         networks:
             - public
             - private
         restart: unless-stopped
     client:
+        env_file: 
+            - path: ./.env
+              required: true
         depends_on:
             - server
         build: ./client
         ports:
-            - 80:42067
+            - ${CLIENT_DOCKER_PORT}:${CLIENT_LOCAL_PORT}
         networks:
             - public
         restart: unless-stopped
