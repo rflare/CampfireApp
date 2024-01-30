@@ -7,8 +7,8 @@
 3. `git submodules update`
 4. `mysql -D <your database> < init.sql`
 5. Build both client and server
-   - 
-   -  
+   - [Setup for client](https://github.com/rusluck/BigRusClient/tree/master/docs/Build.md)
+   - [Setup for server](https://github.com/rusluck/BigRusServer/tree/master/docs/Build.md)
 
 ## Build for docker
 
