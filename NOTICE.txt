@@ -1,4 +1,4 @@
-# BigRus subcomponents
+BIGRUS SUBCOMPONENTS
 
 BigRus contains subcomponents with separate copyright
 notices and license terms. Your use of the source code for the these
@@ -7,7 +7,7 @@ licenses.
 
 
 ---------------------------------
-BSD 3-Clause licenses
+BSD 3-Clause License
 ---------------------------------
 
 The following components are provided under the BSD 3-Clause License 
