@@ -23,6 +23,11 @@ services:
         env_file: 
             - path: ./.env
               required: true
+        environment:
+            - DATABASE=database
+            - DB_USERNAME=root
+            - DB_PASSWORD=${DB_ROOT_PASSWORD}
+            - DB_HOST=database
         ports:
             - ${SERVER_DOCKER_PORT}:${SERVER_LOCAL_PORT}
         networks:
