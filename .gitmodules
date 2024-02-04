@@ -1,6 +1,6 @@
 [submodule "server"]
 	path = server
-	url = https://github.com/rusluck/BigRusServer.git
+	url = https://github.com/rflare/CampfireServer.git
 [submodule "client"]
 	path = client
-	url = https://github.com/rusluck/BigRusClient.git
+	url = https://github.com/rflare/CampfireClient.git
