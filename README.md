@@ -1,10 +1,10 @@
-# BigRus
+# Campfire
 ## Overview
 
-BigTime is a social media I'm making. I'm not taking it too seriously.
+Campfire (originally BigRus) is a social media I'm making. I'm not taking it too seriously.
 
 This project uses a React + Vite client, while using an ExpressJS and MySql backend.
 
 This project uses two components:
-- [BigRus Server](https://github.com/rusluck/BigRusServer.git)
-- [BigRus Client](https://github.com/rusluck/BigRusClient.git)
+- [Campfire Server](https://github.com/rflare/CampfireServer.git)
+- [Campfire Client](https://github.com/rflare/CampfireClient.git)
