@@ -14,11 +14,7 @@
 
 1. Install docker engine and docker compose
 2. Create `.env` and fill out values
-   - `DB_HOST`
-   - `DB_USERNAME`
-   - `DB_PASSWORD`
    - `DB_ROOT_PASSWORD`
-   - `DATABASE`
    - `CLIENT_LOCAL_PORT`
    - `CLIENT_DOCKER_PORT`
    - `SERVER_LOCAL_PORT`
