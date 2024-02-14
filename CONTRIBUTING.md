@@ -1,8 +1,7 @@
 # Contributing
 
-There is not much code in the parent repository.
-Thus, there is only one branch
-which is master.
+There is only a master branch.
+To contribute, make a pull request or something
 
 Some ways to contribute:
 - Updating submodules (preferably master branch)
