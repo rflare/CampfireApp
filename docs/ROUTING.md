@@ -9,7 +9,7 @@ As of writing, Campfire has two important routes
     {
         text: String
         name: String
-        timeMillis: number
+        timeMillis: String
     }
 ]
 ```
@@ -20,6 +20,6 @@ As of writing, Campfire has two important routes
 {
     text: String
     name: String
-    timeMillis: number
+    timeMillis: String
 }
 ```
