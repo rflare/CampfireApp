@@ -7,9 +7,9 @@ As of writing, Campfire has two important routes
 ```json
 [
     {
-        text: String
-        name: String
-        timeMillis: String
+        text: "Lorem Ipsum dit alorem ipsum dolor sit amet, consectetur adip",
+        name: "John doe",
+        timeMillis: "1704110400000"
     }
 ]
 ```
@@ -18,8 +18,8 @@ As of writing, Campfire has two important routes
   - It would follow this structure in JSON
 ```json
 {
-    text: String
-    name: String
-    timeMillis: String
+    text: "Lorem Ipsum dit alorem ipsum dolor sit amet, consectetur adip",
+    name: "John Doe"
+    timeMillis: "1704110400000"
 }
 ```
