@@ -13,10 +13,5 @@
 ## Build for docker
 
 1. Install docker engine and docker compose
-2. Create `.env` and fill out values
-   - `DB_ROOT_PASSWORD`
-   - `CLIENT_LOCAL_PORT`
-   - `CLIENT_DOCKER_PORT`
-   - `SERVER_LOCAL_PORT`
-   - `SERVER_DOCKER_PORT`
+2. [Setup necessary environment variables for Docker](./docs/ENVIRONMENT.md)
 3. `docker compose up`

@@ -10,13 +10,13 @@ the subcomponents used in this software
 
 The following subcomponents are provided under the BSD 3-Clause License 
 
-Campfire Client (https://github.com/rflare/CampfireClient.git) [link](./docs/licenses/LICENSE-bigrusclient.txt)
-Campfire Server (https://github.com/rflare/CampfireServer.git) [link](./docs/licenses/LICENSE-bigrusserver.txt)
+Campfire Client (https://github.com/rflare/CampfireClient.git) [link](./licenses/LICENSE-bigrusclient.txt)
+Campfire Server (https://github.com/rflare/CampfireServer.git) [link](./licenses/LICENSE-bigrusserver.txt)
 
 
 ## SIL OPEN FONT LICENSE
 
 The following subcomponents are provided under the SIL OPEN FONT LICENSE
 
-Kumbh Sans (https://github.com/xconsau/KumbhSans) [link](./docs/licenses/LICENSE-kumbhsans.txt)
-Merriweather (https://github.com/EbenSorkin/Merriweather) [link](./docs/licenses/LICENSE-merriweather.txt)
+Kumbh Sans (https://github.com/xconsau/KumbhSans) [link](./licenses/LICENSE-kumbhsans.txt)
+Merriweather (https://github.com/EbenSorkin/Merriweather) [link](./licenses/LICENSE-merriweather.txt)
