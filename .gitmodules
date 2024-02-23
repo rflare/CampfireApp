@@ -1,0 +1,6 @@
+[submodule "campfire-client"]
+	path = campfire-client
+	url = https://github.com/rflare/campfire-client
+[submodule "campfire-server"]
+	path = campfire-server
+	url = https://github.com/rflare/campfire-server.git
