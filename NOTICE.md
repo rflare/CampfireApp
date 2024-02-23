@@ -10,7 +10,7 @@ the subcomponents used in this software
 
 The following subcomponents are provided under the BSD 3-Clause License 
 
-Campfire Client (https://github.com/rflare/CampfireClient.git) [link](./licenses/LICENSE-bigrusclient.txt)
-Campfire Server (https://github.com/rflare/CampfireServer.git) [link](./licenses/LICENSE-bigrusserver.txt)
+Campfire Client (https://github.com/rflare/campfire-client.git) [link](./licenses/LICENSE-campfire-server.txt)
+Campfire Server (https://github.com/rflare/campfire-server.git) [link](./licenses/LICENSE-campfire-client.txt)
 
 
